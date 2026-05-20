@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "A modern browser-based multiplayer gun battle game",
   "main": "server/index.js",
-  "scripts": {
+ "scripts": {
+  "start": "node server/index.js"
+}
     "dev": "concurrently \"npm run server\" \"npm run client\"",
     "server": "node server/index.js",
     "client": "cd frontend && npm run dev",
